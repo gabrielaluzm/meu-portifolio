@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8F1E5;
+}
+
+/* Cabeçalho */
+
+#navegacao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#navegacao a {
+    text-decoration: none;
+    color: #F8F1E5; 
+}
+
+.container-navegacao {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 5px;
+}
+
+.logo {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Perfil */
+
+.container-perfil {
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.foto-perfil {
+    position: relative;
+    z-index: 2;
+}
+
+.foto {
+    margin-top: -200px;
+    width: 250px;
+    height: 360px;
+    border: 3px solid #F8F1E5;
+    border-radius: 233px;
+    box-shadow: 0px 4px 10px #4E342E;
+}
+
+.foto-perfil h2 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    color: #4E342E;
+    font-size: 2.0em;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    color: #A47551;
+}
+
+.info-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.icon {
+    width: 22px;
+    margin-right: 8px;
+}
+
+.info-list a {
+    text-decoration: none;
+    color: #A47551;
+    font-size: 1.2em;
+}
+
+.caixas-info {
+    
+}
+
+.botoes-sociais {
+    display: flex;
+    gap: 16px;
+}
+
+.social-btn {
+    width: 64px;
+    height: 54px;
+    border-radius: 18px;
+    background-color: #4E342E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-btn:hover {
+    background-color: #64433b;
+}
+
+.social-btn img {
+    width: 32px;
+    height: 32px;
+}
+
+.avatar {
+    width: 230px;
+    height: 230px;
+}
